@@ -1,0 +1,13 @@
+[package]
+name = "xtlid"
+version = "0.1.1"
+authors = ["Stefan Schmidt"]
+edition = "2021"
+license = "MIT"
+description = "Provides a mapping of IDs to function names for .XTLID-sections found in Xbox executables"
+
+[dependencies]
+phf = {version= " 0.11.2", features = ["macros"]}
+
+[build-dependencies]
+xmltree = "0.10"
