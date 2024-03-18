@@ -1,5 +1,5 @@
 <xtlid>
-    <lib name="D3DX8?" libnames="d3dx8 d3dx8d">
+    <lib name="D3DX8" libnames="d3dx8 d3dx8d">
         <func id="0x90001" name="D3DXBoxBoundProbe" />
         <func id="0x90002" name="D3DXCheckCubeTextureRequirements" />
         <func id="0x90003" name="D3DXCheckTextureRequirements" />
@@ -177,7 +177,7 @@
         <func id="0x900af" name="D3DXVec4Transform" />
         <func id="0x900b0" name="D3DXWeldVertices" />
     </lib>
-    <lib name="DMUSIC?" libnames="dmusic dmusicd dmusici dmusicltcg">
+    <lib name="DMUSIC" libnames="dmusic dmusicd dmusici dmusicltcg">
         <func id="0xa0001" name="DirectMusicAlloc" />
         <func id="0xa0002" name="DirectMusicCreateDefaultHeap" />
         <func id="0xa0003" name="DirectMusicCreateDefaultPhysicalHeap" />
@@ -196,7 +196,7 @@
         <func id="0xa0010" name="DirectMusicPhysicalFree" />
         <func id="0xa0011" name="DirectMusicSetDebugLevel" />
     </lib>
-    <lib name="DSOUND?" libnames="dsound dsoundd">
+    <lib name="DSOUND" libnames="dsound dsoundd">
         <func id="0xb0001" name="Ac97CreateMediaObject" />
         <func id="0xb0002" name="DirectSoundCreate" />
         <func id="0xb0003" name="DirectSoundCreateBuffer" />
@@ -371,7 +371,7 @@
         <func id="0xb00ac" name="XWaveFileCreateMediaObjectEx" />
         <func id="0xb00ad" name="XWmaDecoderCreateMediaObject" />
     </lib>
-    <lib name="KEYBOARD?" libnames="keyboard keyboardd">
+    <lib name="KEYBOARD" libnames="keyboard keyboardd">
         <func id="0x60001" name="XDEVICE_TYPE_KEYBOARD_TABLE" />
         <func id="0x60002" name="XInputGetKeyboardDeviceLanguage" />
         <func id="0x60003" name="XInputGetKeyboardOptions" />
@@ -379,7 +379,7 @@
         <func id="0x60005" name="XInputRegisterLanguages" />
         <func id="0x60006" name="XInputSetKeyboardOptions" />
     </lib>
-    <lib name="XACT?" libnames="xacteng xactengd xactengi xactengltcg">
+    <lib name="XACT" libnames="xacteng xactengd xactengi xactengltcg">
         <func id="0xc0001" name="IXACTEngine_AddRef" />
         <func id="0xc0002" name="IXACTEngine_CommitDeferredSettings" />
         <func id="0xc0003" name="IXACTEngine_CreateSoundBank" />
@@ -946,7 +946,7 @@
         <func id="0x20002" name="Yield" />
         <func id="0x20006" name="ZeroMemory" />
     </lib>
-    <lib name="XGRAPHICS?" libnames="xgraphics xgraphicsd xgraphicsltcg">
+    <lib name="XGRAPHICS" libnames="xgraphics xgraphicsd xgraphicsltcg">
         <func id="0xd0001" name="XGAssembleShader" />
         <func id="0xd0002" name="XGBuffer_AddRef" />
         <func id="0xd0003" name="XGBuffer_GetBufferPointer" />
@@ -978,12 +978,12 @@
         <func id="0xd001d" name="XGWriteSurfaceOrTextureToXPR" />
         <func id="0xd001e" name="XGWriteSurfaceToFile" />
     </lib>
-    <lib name="XKBD?" libnames="xkbd xkbdd">
+    <lib name="XKBD" libnames="xkbd xkbdd">
         <func id="0x50001" name="XDEVICE_TYPE_DEBUG_KEYBOARD_TABLE" />
         <func id="0x50002" name="XInputDebugGetKeystroke" />
         <func id="0x50003" name="XInputDebugInitKeyboardQueue" />
     </lib>
-    <lib name="XMV?" libnames="xmv xmvd">
+    <lib name="XMV" libnames="xmv xmvd">
         <func id="0xe0001" name="XMVDecoder_CloseDecoder" />
         <func id="0xe0002" name="XMVDecoder_CreateDecoderForFile" />
         <func id="0xe0003" name="XMVDecoder_CreateDecoderForPackets" />
@@ -1629,7 +1629,7 @@
         <func id="0x80194" name="IDirect3DVolumeTexture8_SetPrivateData" />
         <func id="0x80195" name="IDirect3DVolumeTexture8_UnlockBox" />
     </lib>
-    <lib name="XVOICE?" libnames="xvoice xvoiced">
+    <lib name="XVOICE" libnames="xvoice xvoiced">
         <func id="0x70001" name="XDEVICE_TYPE_HIGHFIDELITY_MICROPHONE_TABLE" />
         <func id="0x70002" name="XDEVICE_TYPE_VOICE_HEADPHONE_TABLE" />
         <func id="0x70003" name="XDEVICE_TYPE_VOICE_MICROPHONE_TABLE" />
